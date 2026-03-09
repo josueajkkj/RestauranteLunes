@@ -79,7 +79,7 @@ function obtenerResumenMenu() {
 }
 
 
-// RENDER LISTA
+//Implementa renderLista reutilizable
 function renderLista(titulo, lista) {
 
     const output = document.getElementById("output");
