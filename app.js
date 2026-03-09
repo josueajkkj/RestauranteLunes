@@ -6,7 +6,7 @@ let menu = [
     { nombre: "Chaufa", precio: 15, stock: 2 }
 ];
 
-
+//
 function renderMenu() {
 
     const output = document.getElementById("output");
@@ -57,7 +57,7 @@ function contarPlatos() {
 }
 
 
-// BUSCAR PLATO
+// Se busca el plato
 function buscarPlatoPorNombre(nombre) {
     return menu.find(plato =>
         plato.nombre.toLowerCase() === nombre.toLowerCase()
